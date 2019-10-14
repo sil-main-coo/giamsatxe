@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@color/colorbgRowSensor"
+    tools:context=".View.Home.Fragment.ControlFirstClassFragment">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/color_line"
+            android:text="Thông tin xe"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp"
+            android:paddingLeft="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:background="@color/color_line"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginTop="1dp"
+                android:layout_width="150dp"
+                android:orientation="vertical"
+                android:layout_marginRight="1dp"
+                android:gravity="center"
+                android:background="@color/colorbgRowSensor"
+                android:layout_height="103dp">
+
+                <TextView
+                    android:id="@+id/txtBienSo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="98X1 - 99999"
+                    android:textColor="@color/colorYellow"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Biển kiểm soát"
+                    android:textColor="@color/textColor"
+                    android:textSize="13dp"
+                    android:typeface="monospace"
+                    app:fontFamily="serif" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="1dp"
+                android:layout_width="150dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginRight="1dp"
+                android:background="@color/colorbgRowSensor"
+                android:layout_height="103dp">
+
+                <TextView
+                    android:id="@+id/txtTrangThai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="..."
+                    android:textColor="@color/colorYellow"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Trạng thái xe"
+                    android:textColor="@color/textColor"
+                    android:textSize="13dp"
+                    android:typeface="monospace"
+                    app:fontFamily="serif" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/color_line"
+            android:text="Giám sát"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp"
+            android:paddingLeft="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:background="@color/color_line"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_marginTop="1dp"
+                android:layout_width="120dp"
+                android:orientation="vertical"
+                android:layout_marginRight="1dp"
+                android:background="@color/colorbgRowSensor"
+                android:layout_height="103dp">
+
+                <ImageView
+                    android:layout_width="64px"
+                    android:layout_height="64px"
+                    android:layout_gravity="center"
+                    android:src="@drawable/human"
+                    />
+
+                <TextView
+                    android:id="@+id/txtSoNguoi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="..."
+                    android:textColor="@color/colorYellow"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Số người còn lại"
+                    android:textColor="@color/textColor"
+                    android:textSize="13dp"
+                    android:typeface="monospace"
+                    app:fontFamily="serif" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+<!--    <FrameLayout-->
+<!--        android:background="@color/colorbgRowSensor"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:padding="15dp"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <android.support.design.widget.FloatingActionButton-->
+<!--            android:id="@+id/fabSendmail"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="end|bottom"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:clickable="true"-->
+<!--            android:src="@drawable/mail" />-->
+
+<!--        <TableRow android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:layout_width="match_parent">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txtContentVoice"-->
+<!--                android:layout width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="@color/textColor"-->
+<!--                android:textSize="20dp"-->
+<!--                app:fontFamily="@font/text_me_one" />-->
+
+<!--        </TableRow>-->
+
+<!--    </FrameLayout>-->
+
+</LinearLayout>
